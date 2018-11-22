@@ -1,0 +1,13 @@
+server:
+  port: 7777
+  context-path: /abc
+  
+spring:
+  freemarker:
+    charset: utf-8
+    
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
