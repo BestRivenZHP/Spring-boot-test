@@ -5,6 +5,7 @@ public class Test_person {
 	private int age;
 	private String name;
 	private String sex;
+	private String sex1;
 
 	public int getId() {
 		return id;
